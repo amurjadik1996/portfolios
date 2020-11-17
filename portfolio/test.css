@@ -1,0 +1,32 @@
+body {
+	margin: o;
+	padding: 0;
+}
+header {
+}
+.slide{
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;  
+}
+.slide.slick-slide{
+  min-height:calc(100vh - 40px);
+}
+.slick-dots{
+  margin:10px 0;
+  padding:0;
+  text-align:center;
+}
+.slick-dots li{
+  display:inline-block;
+  width:10px;
+  height:10px;
+  background-color:#000;
+  opacity:.5;
+  transition:all .2s ease;
+  margin:0 5px;
+  border-radius:50%;
+}
+.slick-dots .slick-active{
+  opacity:1;
+}
